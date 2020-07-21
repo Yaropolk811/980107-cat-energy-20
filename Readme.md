@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Дмитрий Якименко](https://up.htmlacademy.ru/adaptive/20/user/980107).
-* Наставник: `Неизвестно`.
+* Наставник: [Анастасия Рябчикова 🐤](https://htmlacademy.ru/profile/id521463).
 
 ---
 

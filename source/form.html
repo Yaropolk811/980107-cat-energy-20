@@ -42,18 +42,18 @@
     <p class="page-form__action-text">Заполните анкету, и мы подберем программу питания для вашего кота</p>
     <form class="page-form_form-program form-program" action="https://echo.htmlacademy.ru" method="post">
       <fieldset class="form-program__personaldata">
-        <p class="form-program__personaldata-name">
+        <div class="form-program__personaldata-name form-input-text">
           <label for="personaldata-name">ИМЯ:*</label>
           <input id="personaldata-name" type="text" name="name" value="" placeholder="Барсик">
-        </p>
-        <p class="form-program__personaldata-weight">
+        </div>
+        <div class="form-program__personaldata-weight form-input-text">
           <label for="personaldata-weight">ВЕС (КГ):*</label>
           <input id="personaldata-weight" type="text" name="weight" value="" placeholder="7">
-        </p>
-        <p class="form-program__personaldata-age">
+        </div>
+        <div class="form-program__personaldata-age form-input-text">
           <label for="personaldata-age">ВОЗРАСТ (ЛЕТ):</label>
           <input id="personaldata-age" type="text" name="age" value="" placeholder="7">
-        </p>
+        </div>
       </fieldset>
       <fieldset class="form-program__options">
         <ul class="form-program__options-list">
@@ -72,24 +72,24 @@
         </ul>
       </fieldset>
       <fieldset class="form-program__contacts">
-        <legend class="form-program__contacts-title"></legend>
-        <p class="form-program__contacts-email">
+        <legend class="form-program__contacts-title form-legend">Контактные данные (владельца кота)</legend>
+        <div class="form-program__contacts-email form-input-text">
           <label for="contacts-email">E-mail:*</label>
           <input id="contacts-email" type="email" name="email" value="" placeholder="KUKLACHEV@GMAIL.COM">
-        </p>
-        <p class="form-program__contacts-tel">
+        </div>
+        <div class="form-program__contacts-tel form-input-text">
           <label for="contacts-tel">Телефон:*</label>
           <input id="contacts-tel" type="tel" name="tel" value="" placeholder="8 (960) 900-60-90">
-        </p>
+        </div>
       </fieldset>
       <fieldset class="form-program__comment">
-        <legend class="form-program__comment-title">Комментарий</legend>
-        <p class="form-program__comment-field">
+        <legend class="form-program__comment-title form-legend">Комментарий</legend>
+        <div class="form-program__comment-field">
           <textarea rows="5" cols="50" name="comment" placeholder="РАССКАЖИТЕ ОБО ВСЕХ ПОВАДКАХ КОТА"></textarea>
-        </p>
+        </div>
       </fieldset>
       <fieldset class="form-program__additionally">
-        <legend class="form-program__additionally-title">Дополнительно</legend>
+        <legend class="form-program__additionally-title form-legend">Дополнительно</legend>
         <ul class="form-program__additionally-list">
           <li class="form-program__additionally-item">
             <input id="additionally-item-1" type="checkbox" name="Сахарозаменитель" checked>
